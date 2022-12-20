@@ -352,7 +352,7 @@ input[type=text] {
       
     }
     .section-2 {
-     background-image: url(../img/squashlight-Current-View.webp);
+     background-image: url(../img/squash.webp);
      
      
      background-size: cover;
@@ -360,17 +360,22 @@ input[type=text] {
 
     .section-3 {
       background-size: cover;
-     
-  
+    }
+
+    #nytlogo {
+      font-size: 6rem;
+      padding-bottom: 0;
     }
     
+    #forfriskende {
+      font-size: 4rem;
+    }
 
     .footer { 
       width: fit-content;
         justify-content: space-between;
         margin-bottom: auto;
       padding: 1rem;
-      margin-right: 3rem;
       font-size: 2rem;
     }
     
@@ -389,10 +394,16 @@ input[type=text] {
       padding-left: 2rem;
     }
 
-    .historie-1 {
+    .historie-billede {
       background-size: cover;
-      max-width: fit-content;
+      width: 100%;
     }
+
+    .historie-billede p {
+      font-size: 10rem;
+      
+    }
+
 
     .tekst-historie {
       font-size: 3rem;
@@ -400,24 +411,29 @@ input[type=text] {
     }
 
     .historie-1 p {
-      font-size: 10px;
+      font-size: 2rem;
+      margin: 25px;
     }
     .infographic-billede img {
-      width: 5px;
+      width: 100%;
+    }
+
+    .kampagne-billeder img {
+      width: 100%;
+      flex-direction: column;
     }
 
     .kampagne-billeder {
       flex-direction: column;
-      width: 100%;
     }
  
 
     .kampagne-billeder aside {
-      width: auto;
-      height: 50rem;
-      margin-bottom: 15rem;
+      width: 100%;
+      
+      
       text-align: center;
-      padding-top: 3rem;
+      
 
     }
 
@@ -435,7 +451,7 @@ input[type=text] {
     }
   
     .kampagne-billeder input {
-      width: 30rem;
+     
       height: 5rem;
       padding: 1rem;
       
@@ -445,10 +461,10 @@ input[type=text] {
   @media only screen and (max-width: 375px) {
     .section-1 {
       background-size: cover;
-      max-width: fit-content;
+      width: 100%;
     }
     .section-2 {
-      max-width: fit-content;
+      width: 100%;
       background-size: cover;
     }
 
@@ -457,6 +473,11 @@ input[type=text] {
       background-size: cover;
       width: 100%;
     }
+
+    #forside {
+      font-size: 6rem;
+    } 
+   
       .footer { 
         
         font-size: 15px;
@@ -476,5 +497,54 @@ input[type=text] {
             padding-left: 10px;
           }
 
+          
+    #nytlogo {
+      font-size: 3rem;
+      padding-bottom: 0;
+    }
+    
+    #forfriskende {
+      font-size: 2rem;
+    }
 
-  }
+    .tekstp p{
+      font-size: 1rem;
+    }
+
+
+          .historie-1 {
+            background-size: cover;
+            background-attachment: unset;
+            width: 100%;
+            background-position-y: 0%;
+          }
+
+          .infographic-billede img {
+            width: 100%;
+          }
+
+          .tekst p {
+            
+            line-height: normal;
+            font-size: 1.5rem;
+          }
+
+          .kampagne-billeder img {
+            width: 100%;
+            flex-direction: column;
+          }
+      
+          .kampagne-billeder {
+            flex-direction: column;
+          }
+       
+      
+          .kampagne-billeder aside {
+            width: 100%;
+          }
+            .kampagne-billeder p{
+              font-size: 1.5rem;
+            }
+
+          
+}
